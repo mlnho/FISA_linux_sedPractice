@@ -14,6 +14,7 @@
 
 3.sed 명령어로 apt 저장소 변경
 	- sed -i 's/kr.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list 
+ 
 4.sed 명령어로 static IP 설정하기
 <aside> :전구: 실제 현업에서는 ip를 dhcp를 이용해서 자동 할당하지 않음
 왜?
