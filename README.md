@@ -30,7 +30,7 @@
  - sed로 내용 확인
  - $ sed -n '1,$p' 00-installer-config.yaml
  - b. default 값들 확인
- - # route의 default값 확인
+ - ### route의 default값 확인
  - $ ip route | grep default
  - => 10.0.2.2
  - #DNS 서버 주소 확인
