@@ -16,7 +16,7 @@
  - `sed -i 's/kr.archive.ubuntu.com/mirror.kakao.com/g' /etc/apt/sources.list`
  
 4.sed 명령어로 static IP 설정하기
- - <aside> :전구: 실제 현업에서는 ip를 dhcp를 이용해서 자동 할당하지 않음
+ - 실제 현업에서는 ip를 dhcp를 이용해서 자동 할당하지 않음
  - 왜?
  - dhcp는 약 8만초마다 새로 할당
  - 서버를 통신해서 기능을 구동하려면 그 주소를 알아야 함. 설정해주는게 찾아서 사용 가능
